@@ -1,11 +1,8 @@
 
 $(document).ready(function () {
 
-
-
-    $("#icon-search").click(function () {
+    function verificaCidade() {
         var cidade = $('#input-search').val();
-
         if (cidade == 'votuporanga') {
             $('#card').addClass("dry-card");
             $('body').addClass("body-dry");
@@ -21,28 +18,44 @@ $(document).ready(function () {
             $('#simbol').addClass("dry-simbol");
             $('#content').removeClass("none");
             $('#rodape').removeClass("none");
-
+            $('#info').append(`<span>ATENÇÃO EM:</span>
+            <p>Aumento do frizz</p>
+            <p>Indefinição</p>
+            <p>Emaranhamento dos fios.</p>`);
+            $('#simbol').append(` <img src="img/cacto.png">`)
         }
+    }
+
+
+    $("#icon-search").click(function () {
+        verificaCidade()
     });
 
-
-
-    $('#angle-icon').hover(
-        function () {
-            $('#rodape').hide();
-            $('#content').hide();
-            $('#search').hide();
-            $('#card').removeClass('dry-card');
-            $('#results').show();
-        }, function () {
-            $('#rodape').show();
-            $('#content').show();
-            $('#search').show();
-            $('#card').addClass('dry-card');
-            $('#results').hide()
+    $("#input-search").keypress(function (event) {
+        if (event.which == 13) {
+            verificaCidade()
         }
-    );
+    })
 
+
+    $('#angle-icon').click(function () {
+        $('#content').hide();
+        $('#search').hide();
+        $('#card').removeClass('dry-card');
+        $('#card').addClass('dry-card-info');
+        $('#results').show();
+        $('#rodape').hide();
+    });
+
+    $('#angle-icon-left').click(function () {
+        $('#content').show();
+        $('#search').show();
+        $('#card').addClass('dry-card');
+        $('#card').removeClass('dry-card-info');
+        $('#results').hide();
+        $('#rodape').show();
+
+    });
 
 });
 
