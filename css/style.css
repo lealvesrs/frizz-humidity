@@ -6,17 +6,34 @@ body {
     margin: 0;
 }
 
+#errorMsg {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #42392f;
+}
+
+.input-search-init {
+    background-color: #f1af63;
+    border: 1px solid #a7947d;
+    color: #6b5c4c;
+
+}
+
+.input-search-init:focus {
+    border: 1px solid #86725e;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(223, 161, 91, 0.31);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(124, 107, 88, 0.31);
+    box-shadow: 0px 0px 14px 0px rgba(124, 107, 88, 0.31);
+}
+
 .div-loader {
     display: flex;
     justify-content: center;
     padding: 10%;
 }
 
-.body-img {
-    background-image: url('../img/wallpaper.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+
 
 .dry-body {
     background-color: #a58e74;
@@ -250,6 +267,11 @@ body {
 
 @media screen and (max-width: 564px) {
 
+    body {
+        background-color: #e0ba92;
+        
+    }
+
     #card {
         opacity: 0.9;
         width: 90vw;
@@ -261,9 +283,16 @@ body {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
-    
+
     }
 
+    #errorMsg i {
+        font-size: 8vw;
+    }
+
+    #errorMsg {
+        font-size: 3.5vw;
+    }
 
     .content {
         height: 70%;
@@ -307,9 +336,7 @@ body {
         text-transform: uppercase;
     }
 
-    .input-search-init {
-        background-color: #f1af63;
-    }
+
 
 
     #search i {
@@ -497,6 +524,11 @@ body {
 }
 
 @media screen and (min-width: 565px) {
+    .body-img {
+        background-image: url('../img/wallpaper.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
     #card {
         opacity: 0.9;
@@ -509,6 +541,10 @@ body {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
+    }
+
+    #errorMsg i {
+        font-size: 8vw;
     }
 
     .content {
@@ -547,10 +583,6 @@ body {
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         text-transform: uppercase;
-    }
-
-    .input-search-init {
-        background-color: #f1af63;
     }
 
 
@@ -736,6 +768,11 @@ body {
 }
 
 @media screen and (min-width: 800px) {
+    .body-img {
+        background-image: url('../img/wallpaper.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
 
     #card {
         opacity: 0.9;
@@ -748,6 +785,10 @@ body {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
+    }
+
+    #errorMsg i {
+        font-size: 4vw;
     }
 
     .content {
@@ -787,11 +828,6 @@ body {
         text-align: center;
         text-transform: uppercase;
     }
-
-    .input-search-init {
-        background-color: #f1af63;
-    }
-
 
     #search i {
         position: absolute;

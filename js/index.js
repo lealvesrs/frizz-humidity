@@ -14,8 +14,15 @@ $(document).ready(function () {
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`
         const res = await fetch(url)
         const data = await res.json();
+        if (data.cod == '404') errorData()
+        else showWeatherData(data)
 
-        console.log(data)
+        return data;
+    }
+
+    const showWeatherData = async (data) => {
+
+        var humidity = data.main.humidity
         var name = data.name
         var humidity = data.main.humidity
         var temp = data.main.temp
@@ -27,6 +34,11 @@ $(document).ready(function () {
         $('#wind').html('<i class="fa-solid fa-wind"></i> ' + wind + ' Km/h');
         testHumidity(humidity)
 
+    };
+
+    function errorData() {
+        clearStyle()
+        $('#errorMsg').removeClass('none');
     }
 
     const testHumidity = async (humidity) => {
@@ -75,6 +87,9 @@ $(document).ready(function () {
         $('#simbol').removeClass();
         $('#results').removeClass();
         $('#results').addClass("none");
+        $('#content').addClass("none");
+        $('#rodape').addClass("none");
+        $('#errorMsg').addClass("none");
     }
 
     function normalHumidity() {
