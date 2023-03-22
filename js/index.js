@@ -6,32 +6,35 @@ $(document).ready(function () {
     function getCity() {
         var cidade = $('#input-search').val();
         getWeatherData(cidade)
-        $('.div-loader').addClass("none");
     }
 
 
     const getWeatherData = async (cidade) => {
+        $('.div-loader').removeClass("none");
         let url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`
         const res = await fetch(url)
         const data = await res.json();
         if (data.cod == '404') errorData()
         else showWeatherData(data)
 
+        $('.div-loader').addClass("none");
+
         return data;
     }
 
+
     const showWeatherData = async (data) => {
 
-        var humidity = data.main.humidity
-        var name = data.name
-        var humidity = data.main.humidity
-        var temp = data.main.temp
-        var wind = (data.wind.speed) * 3.6
+        var humidity = (data.main.humidity).toString()
+        var name = (data.name).toString()
+        var humidity = (data.main.humidity).toString()
+        var temp = (data.main.temp).toString()
+        var wind = ((data.wind.speed) * 3.6).toString()
 
         $('#humidity').text(humidity + '%');
         $('#city').html('<p>' + name + '</p>');
-        $('#temp').html('<i class="fa-solid fa-temperature-half"></i> ' + temp + ' °C');
-        $('#wind').html('<i class="fa-solid fa-wind"></i> ' + wind + ' Km/h');
+        $('#temp').html('<i class="fa-solid fa-temperature-half"></i> ' + temp.split(".", 1) + ' °C');
+        $('#wind').html('<i class="fa-solid fa-wind"></i> ' + wind.split(".", 1) + ' Km/h');
         testHumidity(humidity)
 
     };
@@ -39,6 +42,7 @@ $(document).ready(function () {
     function errorData() {
         clearStyle()
         $('#errorMsg').removeClass('none');
+        $('body').addClass("body-img");
     }
 
     const testHumidity = async (humidity) => {
@@ -80,6 +84,7 @@ $(document).ready(function () {
         $('#weather').removeClass();
         $('body').removeClass();
         $('#input-search').removeClass();
+        $('#input-search').addClass('input-search-init ');
         $('#porcent').removeClass();
         $('#humidity').removeClass();
         $('#words').removeClass();
@@ -96,7 +101,6 @@ $(document).ready(function () {
         clearStyle()
         $('#card').addClass("normal-card");
         $('body').addClass("normal-body");
-        $('#shape').hide();
         $('#input-search').addClass("input-search-normal");
         $('#content').removeClass("none");
         $('#rodape').removeClass("none");
@@ -120,7 +124,6 @@ $(document).ready(function () {
         clearStyle()
         $('#card').addClass("wet-card");
         $('body').addClass("wet-body");
-        $('#shape').hide();
         $('#input-search').addClass("input-search-wet");
         $('#content').removeClass("none");
         $('#rodape').removeClass("none");
@@ -144,7 +147,6 @@ $(document).ready(function () {
         clearStyle()
         $('#card').addClass("dry-card");
         $('body').addClass("dry-body");
-        $('#shape').hide();
         $('#input-search').removeClass("input-search-init");
         $('#input-search').addClass("input-search-dry");
         $('#icon').addClass("icon-dry");
