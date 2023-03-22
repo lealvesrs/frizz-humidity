@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/31932bbd68.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     <title>Cachos & Umidade do ar</title>
 
 </head>
@@ -27,69 +27,70 @@
         </svg>
     </div>
 
+    <div>
+        <div id="card">
 
-    <div id="card">
+            <div id="search">
+                <i class="fa fa-search" id="icon-search"></i>
+                <input type="text" id="input-search" class="input-search-init" placeholder="Digite o nome da cidade">
 
-        <div id="search">
-            <i class="fa fa-search" id="icon-search"></i>
-            <input type="text" id="input-search" class="input-search-init" placeholder="Digite o nome da cidade">
-
-        </div>
-        <div class="content none" id="content">
-            <div id="porcent">
-                <p> Umidade do ar </p>
-                <p id="humidity"> <i class="fa fa-droplet"></i> 21% </p>
-                <p id="words"><span>F</span>rizz alert</p>
             </div>
-
-        </div>
-
-
-        <div class="results none" id="results">
-            <div id="weather">
-                <span>Baixa umidade</span>
-                <div class="results-weather">
-                    <div id="city">
-                        <p>AMERICO DE CAMPOS</p>
-                    </div>
-
-                    <div class="more">
-                        <p id="temp"><i class="fa-solid fa-temperature-half"></i> 35°C</p>
-                        <p id="rain"><i class="fa-solid fa-cloud-rain"></i></i> 3.16</p>
-                        <p id="wind"><i class="fa-solid fa-wind"></i> 5km/h</p>
-                    </div>
+            <div class="content none" id="content">
+                <div id="porcent">
+                    <p> Umidade do ar </p>
+                    <p id="humidity"> <i class="fa fa-droplet"></i>  </p>
+                    <p id="words"></p>
                 </div>
-            </div>
-
-
-            <div id="blocks">
-                <div id="section">
-                    <div id="info">
-                    </div>
-                    <div id="footer">
-                        <i id="angle-icon-left" class="fa-solid fa-angle-left"></i>
-                    </div>
-                </div>
-
-                <div id="simbol">
-                </div>
-
 
             </div>
 
 
+            <div class="results none" id="results">
+                <div id="weather">
+                    <span id="titleWeather"></span>
+
+                    <div id="results-weather">
+                        <div id="city">
+                        </div>
+
+                        <div class="more">
+                            <p id="temp"> </p>
+                            <p id="wind"> </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="blocks">
+                    <div id="section">
+                        <div id="info">
+                        </div>
+                        <div id="footer">
+                            <i id="angle-icon-left" class="fa-solid fa-angle-left"></i>
+                        </div>
+                    </div>
+
+                    <div id="simbol">
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+            <div class="rodape none" id="rodape">
+                <i id="angle-icon" class="fa-solid fa-angle-right"></i>
+            </div>
+
 
         </div>
-        <div class="rodape none" id="rodape">
-            <i id="angle-icon" class="fa-solid fa-angle-right"></i>
+
+
+        <div class="div-loader none">
+            <span class="loader"></span>
         </div>
-
-
     </div>
-
-
-
-
 
 
 </body>
