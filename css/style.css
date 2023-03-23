@@ -327,7 +327,7 @@ body {
     }
 
     #icon-search {
-        padding: 4vw;
+        padding: 2vh;
         font-size: 4vw;
     }
 
@@ -483,7 +483,7 @@ body {
 
 
     #words {
-        font-size: 22vw;
+        font-size: 19vw;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
