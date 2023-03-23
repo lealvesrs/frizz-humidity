@@ -989,7 +989,7 @@ body {
 
 }
 
-@media screen and ( max-height: 300px ) {
+@media screen and ( max-height: 500px ) {
     #icon-search {
         padding: 6vh;
         font-size: 4vw;
