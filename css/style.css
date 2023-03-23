@@ -323,7 +323,7 @@ body {
 
     #search i {
         position: absolute;
-        cursor: pointer;
+    
     }
 
     #icon-search {
@@ -569,7 +569,6 @@ body {
 
     #search i {
         position: absolute;
-        cursor: pointer;
     }
 
     #icon-search {
@@ -812,7 +811,7 @@ body {
 
     #search i {
         position: absolute;
-        cursor: pointer;
+
     }
 
     #icon-search {
@@ -988,4 +987,11 @@ body {
         height: 15vw;
     }
 
+}
+
+@media screen and ( max-height: 300px ) {
+    #icon-search {
+        padding: 6vh;
+        font-size: 4vw;
+    }
 }

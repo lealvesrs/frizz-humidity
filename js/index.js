@@ -129,7 +129,7 @@ $(document).ready(function () {
         $('#rodape').removeClass("none");
         $('#weather').addClass("wet-weather");
         $('#titleWeather').text(`Umidade alta`);
-        $('#words').html(`<span> A</span>lerta de Frizz`);
+        $('#words').html(`<span> F</span>rizz!`);
         $('#porcent').addClass("porcent-wet");
         $('#humidity').addClass("humidity-wet");
         $('#words').addClass("wet-words");
@@ -154,7 +154,7 @@ $(document).ready(function () {
         $('#humidity').addClass("humidity-dry");
         $('#weather').addClass("dry-weather");
         $('#words').addClass("dry-words");
-        $('#words').html(`<span> A</span>lerta de Frizz`);
+        $('#words').html(`<span> F</span>rizz!`);
         $('#titleWeather').text(`Baixa umidade`);
         $('#info').addClass("dry-info");
         $('#simbol').addClass("dry-simbol");
