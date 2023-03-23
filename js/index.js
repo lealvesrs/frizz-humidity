@@ -107,7 +107,7 @@ $(document).ready(function () {
         $('#results').addClass("normal-results");
         $('#weather').addClass("normal-weather");
         $('#titleWeather').text(`Umidade ideal`);
-        $('#words').html(`No <span>frizz</span>`);
+        $('#words').html(`Sem <span>frizz</span>`);
         $('#porcent').addClass("porcent-normal");
         $('#humidity').addClass("humidity-normal");
         $('#words').addClass("normal-words");
@@ -128,8 +128,8 @@ $(document).ready(function () {
         $('#content').removeClass("none");
         $('#rodape').removeClass("none");
         $('#weather').addClass("wet-weather");
-        $('#titleWeather').text(`Alta umidade`);
-        $('#words').html(`<span>F</span>rizz alert`);
+        $('#titleWeather').text(`Umidade alta`);
+        $('#words').html(`<span> A</span>lerta de Frizz`);
         $('#porcent').addClass("porcent-wet");
         $('#humidity').addClass("humidity-wet");
         $('#words').addClass("wet-words");
@@ -154,7 +154,7 @@ $(document).ready(function () {
         $('#humidity').addClass("humidity-dry");
         $('#weather').addClass("dry-weather");
         $('#words').addClass("dry-words");
-        $('#words').html(`<span>F</span>rizz alert`);
+        $('#words').html(`<span> A</span>lerta de Frizz`);
         $('#titleWeather').text(`Baixa umidade`);
         $('#info').addClass("dry-info");
         $('#simbol').addClass("dry-simbol");
