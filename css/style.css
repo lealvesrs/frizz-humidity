@@ -366,7 +366,7 @@ body {
         align-items: center;
         flex-direction: column;
         color: #6b5c4c;
-        font-size: 4vw;
+        font-size: 5vw;
         padding-right: 5%;
         width: 50%;
 
@@ -426,7 +426,7 @@ body {
         border-bottom: 1px solid #6b5c4c;
         border-radius: 10px;
         color: #27291f;
-        font-size: 0.6em;
+        font-size: 0.8em;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         justify-content: center;
@@ -453,7 +453,7 @@ body {
         width: 100%;
         height: 50%;
         text-align: center;
-        font-size: 3.5vw;
+        font-size: 4vw;
         font-weight: bolder;
         font-family: 'Montserrat', sans-serif;
         display: flex;
@@ -483,7 +483,7 @@ body {
 
 
     #words {
-        font-size: 20vw;
+        font-size: 22vw;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
