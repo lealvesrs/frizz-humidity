@@ -327,7 +327,7 @@ body {
     }
 
     #icon-search {
-        padding: 2vh;
+        padding: 4vw;
         font-size: 4vw;
     }
 
@@ -987,11 +987,4 @@ body {
         height: 15vw;
     }
 
-}
-
-@media screen and ( max-height: 500px ) {
-    #icon-search {
-        padding: 6vh;
-        font-size: 4vw;
-    }
 }
