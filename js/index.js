@@ -129,7 +129,7 @@ $(document).ready(function () {
         $('#rodape').removeClass("none");
         $('#weather').addClass("wet-weather");
         $('#titleWeather').text(`Umidade alta`);
-        $('#words').html(`<span> F</span>rizz!`);
+        $('#words').html(`Frizz!`);
         $('#porcent').addClass("porcent-wet");
         $('#humidity').addClass("humidity-wet");
         $('#words').addClass("wet-words");
