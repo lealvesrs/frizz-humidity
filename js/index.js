@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     const getWeatherData = async (cidade) => {
         $('.div-loader').removeClass("none");
-        let url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`
         const res = await fetch(url)
         const data = await res.json();
         if (data.cod == '404') errorData()
