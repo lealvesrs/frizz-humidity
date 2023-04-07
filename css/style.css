@@ -247,7 +247,7 @@ body {
 
 
 
-@media screen and (max-width: 564px) and  (orientation: portrait){
+@media screen and (max-width: 564px) and (orientation:portrait){
 
     body {
         background-color: #e0ba92;
@@ -503,7 +503,7 @@ body {
 
 }
 
-@media screen and (min-width: 565px) and (max-width: 799px){
+@media screen and (min-width: 565px) {
     body {
         background-color: #e0ba92;
         
@@ -745,11 +745,8 @@ body {
 
 }
 
-@media screen and (min-width: 800px)  {
-    body {
-        background-color: #e0ba92;
-        
-    }
+@media screen and (min-width: 800px) {
+
     #card {
         opacity: 0.9;
         width: 30vw;
@@ -985,17 +982,16 @@ body {
 
 }
 
-
-@media screen and (max-width: 564px) and  (orientation: landscape){
+@media screen and (max-width: 564px) and (orientation:landscape){
 
     body {
-        background-color: #e0ba92;
+        background-color: #7edb72;
         
     }
 
     #card {
         opacity: 0.9;
-        width: 60vw;
+        width: 90vw;
         border-radius: 10px;
         -webkit-box-shadow: 0px 0px 14px 0px rgba(22, 26, 26, 0.59);
         -moz-box-shadow: 0px 0px 14px 0px rgba(20, 22, 22, 0.59);
@@ -1048,10 +1044,10 @@ body {
 
     #input-search {
         width: 80vw;
-        height: 15vw;
+        height: 10vw;
         border-radius: 10px;
         outline: none;
-        font-size: 3vw;
+        font-size: 4vw;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         text-transform: uppercase;
@@ -1072,7 +1068,7 @@ body {
 
 
     input::placeholder {
-        font-size: 3vw;
+        font-size: 4vw;
         color: #6b5c4c;
     }
 
@@ -1163,7 +1159,7 @@ body {
         border-bottom: 1px solid #6b5c4c;
         border-radius: 10px;
         color: #27291f;
-        font-size: 2vw;
+        font-size: 2.6vw;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         justify-content: center;
@@ -1172,7 +1168,7 @@ body {
     }
 
     #info span {
-        font-size: 2.5vw;
+        font-size: 3vw;
         font-weight: bolder;
     }
 
@@ -1202,7 +1198,7 @@ body {
     }
 
     #weather span {
-        font-size: 2em;
+        font-size: 3em;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
