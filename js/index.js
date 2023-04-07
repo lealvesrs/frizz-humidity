@@ -113,7 +113,7 @@ $(document).ready(function () {
         $('#words').addClass("normal-words");
         $('#info').addClass("normal-info");
         $('#simbol').addClass("normal-simbol");
-        $('#info').html(`<span>BOAS CONDIÇÕES</span>
+        $('#info').html(`<span>BOAS CONDIÇÕES! </span>
             <p>Fios alinhados</p>
             <p>Cachos definidos</p>
             <p>Poucos nós</p>`);
@@ -135,7 +135,7 @@ $(document).ready(function () {
         $('#words').addClass("wet-words");
         $('#info').addClass("wet-info");
         $('#simbol').addClass("wet-simbol");
-        $('#info').html(`<span>ATENÇÃO EM:</span>
+        $('#info').html(`<span>ATENÇÃO EM: </span>
         <p>Aumento do frizz</p>
         <p>Indefinição</p>
         <p>Emaranhamento dos fios</p>`);
