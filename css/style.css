@@ -53,7 +53,6 @@ body {
     background-image: url('../img/frizz-1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 .input-search-dry {
@@ -103,7 +102,6 @@ body {
     background-image: url('../img/semfrizz.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 .input-search-normal:focus {
@@ -162,7 +160,6 @@ body {
     background-image: url('../img/frizz-wet.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 
@@ -522,6 +519,7 @@ body {
         background-color: #f1af63;
     }
 
+    
     #errorMsg i {
         font-size: 8vw;
     }
@@ -746,11 +744,6 @@ body {
 }
 
 @media screen and (min-width: 800px) {
-    .body-img {
-        background-image: url('../img/wallpaper.jpg');
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
 
     #card {
         opacity: 0.9;
@@ -985,4 +978,28 @@ body {
         height: 15vw;
     }
 
+}
+
+@media screen and (max-height: 800px) {
+    .wet-card{
+        height: 70vh;
+    }
+    .dry-card{
+        height: 70vh;
+    }
+    .normal-card{
+        height: 70vh;
+    }
+}
+
+@media screen and (min-height: 801px) {
+    .wet-card{
+        height: 60vh;
+    }
+    .dry-card{
+        height: 60vh;
+    }
+    .normal-card{
+        height: 60vh;
+    }
 }
