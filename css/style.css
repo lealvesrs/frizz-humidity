@@ -329,6 +329,7 @@ body {
     #icon-search {
         padding: 4vw;
         font-size: 4vw;
+        cursor: pointer;
     }
 
 
@@ -572,6 +573,7 @@ body {
     #icon-search {
         padding: 2vh;
         font-size: 1.5vw;
+        cursor: pointer;
     }
 
 
@@ -810,6 +812,7 @@ body {
     #icon-search {
         padding: 2vh;
         font-size: 1vw;
+        cursor: pointer;
     }
 
 
@@ -1064,6 +1067,7 @@ body {
     #icon-search {
         padding: 4vw;
         font-size: 4vw;
+
     }
 
 

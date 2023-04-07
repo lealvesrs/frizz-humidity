@@ -59,6 +59,11 @@ $(document).ready(function () {
         }
     })
 
+    $("#icon-search").click(function () {
+        getCity();
+
+    })
+
 
     $('#angle-icon').click(function () {
         $('#content').hide();
