@@ -42,7 +42,7 @@ $(document).ready(function () {
     function errorData() {
         clearStyle()
         $('#errorMsg').removeClass('none');
-        $('body').addClass("body-img");
+        $('#card').css("height", "30vh");
     }
 
     const testHumidity = async (humidity) => {
@@ -145,6 +145,7 @@ $(document).ready(function () {
         <p>Indefinição</p>
         <p>Emaranhamento dos fios</p>`);
         $('#simbol').html(` <img src="img/guarda.png">`)
+        $('#card').css("height", "70vh");
     }
 
 

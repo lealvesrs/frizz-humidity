@@ -11,6 +11,19 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #42392f;
+
+    transition: .6s ease-out;
+}
+
+.content {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    transition: .6s ease-out;
+
 }
 
 .input-search-init {
@@ -53,7 +66,6 @@ body {
     background-image: url('../img/frizz-1.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 .input-search-dry {
@@ -103,7 +115,6 @@ body {
     background-image: url('../img/semfrizz.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 .input-search-normal:focus {
@@ -162,7 +173,6 @@ body {
     background-image: url('../img/frizz-wet.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 70vh;
 }
 
 
@@ -251,7 +261,7 @@ body {
 
     body {
         background-color: #e0ba92;
-        
+
     }
 
     #card {
@@ -266,6 +276,8 @@ body {
         flex-flow: row wrap;
         background-color: #f1af63;
 
+        height: 10vh;
+        transition: .6s ease-out;
     }
 
     #errorMsg i {
@@ -276,15 +288,6 @@ body {
         font-size: 3.5vw;
     }
 
-    .content {
-        height: 70%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-
-    }
 
     .rodape {
         cursor: pointer;
@@ -323,7 +326,7 @@ body {
 
     #search i {
         position: absolute;
-    
+
     }
 
     #icon-search {
@@ -507,7 +510,7 @@ body {
 @media screen and (min-width: 565px) {
     body {
         background-color: #e0ba92;
-        
+
     }
 
     #card {
@@ -521,21 +524,15 @@ body {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
+
+        height: 10vh;
+        transition: .6s ease-out;
     }
 
     #errorMsg i {
         font-size: 8vw;
     }
 
-    .content {
-        height: 70%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-
-    }
 
     .rodape {
         cursor: pointer;
@@ -760,21 +757,15 @@ body {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
+
+        height: 10vh;
+        transition: .6s ease-out;
     }
 
     #errorMsg i {
         font-size: 4vw;
     }
 
-    .content {
-        height: 70%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-
-    }
 
     .rodape {
         cursor: pointer;
