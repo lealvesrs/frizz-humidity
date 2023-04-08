@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#icon-search").click(function () {
+    $("#btn-search").click(function () {
         getCity();
 
     })
@@ -130,6 +130,7 @@ $(document).ready(function () {
         $('#card').addClass("wet-card");
         $('body').addClass("wet-body");
         $('#input-search').addClass("input-search-wet");
+        $('#btn-search').addClass("input-search-wet");
         $('#content').removeClass("none");
         $('#rodape').removeClass("none");
         $('#weather').addClass("wet-weather");

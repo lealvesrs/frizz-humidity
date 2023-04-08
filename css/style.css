@@ -15,17 +15,6 @@ body {
     transition: .6s ease-out;
 }
 
-.content {
-    height: 70%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    transition: .6s ease-out;
-
-}
-
 .input-search-init {
     background-color: #f1af63;
     border: 1px solid #a7947d;
@@ -261,12 +250,12 @@ body {
 
     body {
         background-color: #e0ba92;
-
+        
     }
 
     #card {
         opacity: 0.9;
-        width: 90vw;
+        width: 350px;
         border-radius: 10px;
         -webkit-box-shadow: 0px 0px 14px 0px rgba(22, 26, 26, 0.59);
         -moz-box-shadow: 0px 0px 14px 0px rgba(20, 22, 22, 0.59);
@@ -276,7 +265,7 @@ body {
         flex-flow: row wrap;
         background-color: #f1af63;
 
-        height: 10vh;
+        height: 70px;
         transition: .6s ease-out;
     }
 
@@ -288,6 +277,16 @@ body {
         font-size: 3.5vw;
     }
 
+    .content {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+
+        transition: .6s ease-out;
+    }
 
     .rodape {
         cursor: pointer;
@@ -306,16 +305,16 @@ body {
     }
 
     #search {
-        margin: 2vh;
+        margin: 12px;
     }
 
 
     #input-search {
-        width: 80vw;
-        height: 10vw;
+        width: 300px;
+        height: 40px;
         border-radius: 10px;
         outline: none;
-        font-size: 4vw;
+        font-size: 15px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         text-transform: uppercase;
@@ -326,18 +325,18 @@ body {
 
     #search i {
         position: absolute;
-
+    
     }
 
     #icon-search {
-        padding: 4vw;
-        font-size: 4vw;
+        padding: 18px;
+        font-size: 12px;
         cursor: pointer;
     }
 
 
     input::placeholder {
-        font-size: 4vw;
+        font-size: 15px;
         color: #6b5c4c;
     }
 
@@ -507,10 +506,10 @@ body {
 
 }
 
-@media screen and (min-width: 565px) {
+ @media screen and (min-width: 565px) {
     body {
         background-color: #e0ba92;
-
+        
     }
 
     #card {
@@ -533,6 +532,16 @@ body {
         font-size: 8vw;
     }
 
+    .content {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+
+        transition: .6s ease-out;
+    }
 
     .rodape {
         cursor: pointer;
@@ -767,6 +776,7 @@ body {
     }
 
 
+
     .rodape {
         cursor: pointer;
         width: 100%;
@@ -975,3 +985,4 @@ body {
     }
 
 }
+ 
