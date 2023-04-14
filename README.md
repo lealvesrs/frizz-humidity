@@ -1,8 +1,9 @@
 # Vai ter frizz?
-A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar. No entanto, as formas e lidar com o frizz são variáveis, sendo apenas uma condição comum para alguns e, para outros, um motivo de incomodo e insegurança frente a eventos importantes ou compromissos que requerem uma aparência um pouco mais rigorosa.
-Com essa aplicação, conseguimos visualizar a umidade relativa do ar da localidade inserida e, assim, sabermos se há ou não um indicativo para o frizz.
+A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar. No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa.
 
-A aplicação possui três layouts para cada uma das situações:
+Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida e, assim, sabermos se _há ou não um indicativo para o frizz_.
+
+A aplicação possui **três layouts** para cada uma das situações:
 - Frizz provocado pela baixa umidade (<45%);
 - Frizz provocado pela alta umidade (>60%);
 - Sem frizz (entre 45% e 60%);
