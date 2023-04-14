@@ -146,7 +146,7 @@ $(document).ready(function () {
         <p>Indefinição</p>
         <p>Emaranhamento dos fios</p>`);
         $('#simbol').html(` <img src="img/guarda.png">`)
-        $('#card').css("height", "70vh");
+        $('#card').css("height", "450px");
     }
 
 
