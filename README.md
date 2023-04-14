@@ -1,5 +1,9 @@
 # Vai ter frizz?
 
 Ferramentas utilizadas
-<img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-image-logo-html-7.png" width="40" height="40"/>
-<img src="https://www.chicagocomputerclasses.com/wp-content/uploads/2016/01/jquery.gif" width="40" height="40"/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" height="40" />
+          
+          
