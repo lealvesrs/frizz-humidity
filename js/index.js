@@ -42,7 +42,7 @@ $(document).ready(function () {
     function errorData() {
         clearStyle()
         $('#errorMsg').removeClass('none');
-        $('#card').css("height", "30vh");
+        $('#card').css("height", "180px");
     }
 
     const testHumidity = async (humidity) => {
