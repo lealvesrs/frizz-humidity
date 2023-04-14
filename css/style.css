@@ -484,7 +484,7 @@ body {
 
 
     #words {
-        font-size: 12vh;
+        font-size: 70px;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
@@ -739,7 +739,7 @@ body {
 
 
     .normal-simbol img {
-        height: 130px;
+        height: 150px;
     }
 
     .wet-simbol img {

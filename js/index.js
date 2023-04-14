@@ -122,7 +122,8 @@ $(document).ready(function () {
             <p>Fios alinhados</p>
             <p>Cachos definidos</p>
             <p>Poucos nós</p>`);
-        $('#simbol').html(` <img src="img/ya.png">`)
+        $('#simbol').html(` <img src="img/ya.png">`);
+        $('#card').css("height", "450px");
     }
 
     function highHumidity() {
@@ -145,7 +146,7 @@ $(document).ready(function () {
         <p>Aumento do frizz</p>
         <p>Indefinição</p>
         <p>Emaranhamento dos fios</p>`);
-        $('#simbol').html(` <img src="img/guarda.png">`)
+        $('#simbol').html(` <img src="img/guarda.png">`);
         $('#card').css("height", "450px");
     }
 
@@ -171,7 +172,8 @@ $(document).ready(function () {
         <p>Descamação do couro cabeludo</p>
         <p>Ruptura dos fios</p>
         <p>Ressecamento e porosidade</p>`);
-        $('#simbol').html(` <img src="img/cacto.png">`)
+        $('#simbol').html(` <img src="img/cacto.png">`);
+        $('#card').css("height", "450px");
     }
 
 
