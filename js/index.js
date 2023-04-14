@@ -59,7 +59,7 @@ $(document).ready(function () {
         }
     })
 
-    $("#btn-search").click(function () {
+    $("#icon-search").click(function () {
         getCity();
 
     })
