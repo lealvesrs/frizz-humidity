@@ -1,6 +1,7 @@
 # Vai ter frizz?
 A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar. 
-<img src="https://2.bp.blogspot.com/-7q4QzvHqZrE/V1YLvTMZ5eI/AAAAAAAAMtU/G2YmnHplAOsMXVP29RPD9cDOAAyIlz5WgCLcB/s1600/cabelo-frizz-chuva.jpg" width="100" height="70" />
+
+<img src="https://2.bp.blogspot.com/-7q4QzvHqZrE/V1YLvTMZ5eI/AAAAAAAAMtU/G2YmnHplAOsMXVP29RPD9cDOAAyIlz5WgCLcB/s1600/cabelo-frizz-chuva.jpg" width="300" height="150" />
 
 No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa.
 
