@@ -255,7 +255,7 @@ body {
 
     #card {
         opacity: 0.9;
-        width: 350px;
+        width: 320px;
         border-radius: 10px;
         -webkit-box-shadow: 0px 0px 14px 0px rgba(22, 26, 26, 0.59);
         -moz-box-shadow: 0px 0px 14px 0px rgba(20, 22, 22, 0.59);
@@ -310,7 +310,7 @@ body {
 
 
     #input-search {
-        width: 300px;
+        width: 280px;
         height: 40px;
         border-radius: 10px;
         outline: none;
@@ -329,7 +329,7 @@ body {
     }
 
     #icon-search {
-        padding: 18px;
+        padding: 15px;
         font-size: 12px;
         cursor: pointer;
     }
@@ -367,7 +367,7 @@ body {
         align-items: center;
         flex-direction: column;
         color: #6b5c4c;
-        font-size: 5vw;
+        font-size: 15px;
         padding-right: 5%;
         width: 50%;
 
@@ -376,7 +376,7 @@ body {
 
     #results {
         height: 450px;
-        width: 350px;
+        width: 320px;
         border-radius: 10px;
         background-color: #eef1d7;
 
@@ -427,7 +427,7 @@ body {
         border-bottom: 1px solid #6b5c4c;
         border-radius: 10px;
         color: #27291f;
-        font-size: 2.6vw;
+        font-size: 10px;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
         justify-content: center;
@@ -436,7 +436,7 @@ body {
     }
 
     #info span {
-        font-size: 3vw;
+        font-size: 12px;
         font-weight: bolder;
     }
 
@@ -454,7 +454,7 @@ body {
         width: 100%;
         height: 50%;
         text-align: center;
-        font-size: 4vw;
+        font-size: 15px;
         font-weight: bolder;
         font-family: 'Montserrat', sans-serif;
         display: flex;
@@ -466,7 +466,7 @@ body {
     }
 
     #weather span {
-        font-size: 3em;
+        font-size: 55px;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
@@ -492,16 +492,16 @@ body {
 
 
     .normal-simbol img {
-        height: 40vw;
+        height: 130px;
     }
 
     .wet-simbol img {
-        height: 35vw;
+        height: 120px;
     }
 
     .dry-simbol img {
-        height: 30vh;
-        width: 50%;
+        height: 200px;
+        width: 100px;
     }
 
 }
