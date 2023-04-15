@@ -162,7 +162,7 @@ $(document).ready(function () {
         $('#humidity').addClass("humidity-dry");
         $('#weather').addClass("dry-weather");
         $('#words').addClass("dry-words");
-        $('#words').html(`<span> F</span>rizz!`);
+        $('#words').html(`Frizz!`);
         $('#titleWeather').text(`Baixa umidade`);
         $('#info').addClass("dry-info");
         $('#simbol').addClass("dry-simbol");
