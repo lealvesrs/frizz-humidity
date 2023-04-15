@@ -4,8 +4,8 @@ A falta de controle dos fios é uma situação vivenciada por todas as pessoas q
 <img src="https://2.bp.blogspot.com/-7q4QzvHqZrE/V1YLvTMZ5eI/AAAAAAAAMtU/G2YmnHplAOsMXVP29RPD9cDOAAyIlz5WgCLcB/s1600/cabelo-frizz-chuva.jpg" width="300" height="250" />
 
 No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa:
-![Screenshot](img/tweet.jpeg)
-<img src="img/tweet.jpeg" width="40" height="40" /> 
+
+<img src="img/tweet.jpeg" width="400" height="350" /> 
 
 Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida e, assim, sabermos se _há ou não um indicativo para o frizz_.
 
