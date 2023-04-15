@@ -7,22 +7,23 @@ Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do a
 
 A aplicação possui **três layouts** para cada uma das situações:
 - Frizz provocado pela baixa umidade (<45%);
-- <img src="gifs/baixa.gif" width="400" height="300" /> 
+<img src="gifs/baixa.gif" width="400" height="300" /> 
 
 - Frizz provocado pela alta umidade (>60%);
-- <img src="gifs/alta.gif" width="400" height="300" /> 
+<img src="gifs/alta.gif" width="400" height="300" /> 
  
 - Sem frizz (entre 45% e 60%);
-- <img src="gifs/normal.gif" width="400" height="300" /> 
+<img src="gifs/normal.gif" width="400" height="300" /> 
+
 
 Além de contar com um layout para lidar com as localidades inexistentes na base.
- - <img src="gifs/error.gif" width="400" height="300" /> 
+ <img src="gifs/error.gif" width="400" height="300" /> 
 
 ### Ferramentas e Tecnologias utilizadas
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" height="40" />
 
 A aplicação utiliza a API gratuita da [Open Weather](https://openweathermap.org/) para acessar os dados meteorológicos atuais.
-<img src="https://seeklogo.com/images/O/openweather-logo-3CE20F48B5-seeklogo.com.png" width="40" height="40" />
+<img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" width="80" height="60" />
 
  
           
