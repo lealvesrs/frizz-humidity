@@ -5,7 +5,7 @@ A falta de controle dos fios é uma situação vivenciada por todas as pessoas q
 
 No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa:
 
-<img src="img/tweet.jpeg" width="400" height="350" /> 
+<img src="img/tweet.jpeg" width="300" height="200" /> 
 
 Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida e, assim, sabermos se _há ou não um indicativo para o frizz_.
 
