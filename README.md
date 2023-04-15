@@ -1,10 +1,11 @@
 # Vai ter frizz?
 A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar, sendo para muitos um motivo de brincadeira na internet, como no meme abaixo:
 
-<img src="https://2.bp.blogspot.com/-7q4QzvHqZrE/V1YLvTMZ5eI/AAAAAAAAMtU/G2YmnHplAOsMXVP29RPD9cDOAAyIlz5WgCLcB/s1600/cabelo-frizz-chuva.jpg" width="300" height="200" />
+<img src="https://2.bp.blogspot.com/-7q4QzvHqZrE/V1YLvTMZ5eI/AAAAAAAAMtU/G2YmnHplAOsMXVP29RPD9cDOAAyIlz5WgCLcB/s1600/cabelo-frizz-chuva.jpg" width="300" height="250" />
 
 No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa:
 ![Screenshot](img/tweet.jpeg)
+<img src="img/tweet.jpeg" width="40" height="40" /> 
 
 Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida e, assim, sabermos se _há ou não um indicativo para o frizz_.
 
