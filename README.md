@@ -7,6 +7,8 @@ Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do a
 
 A aplicação possui **três layouts** para cada uma das situações:
 - Frizz provocado pela baixa umidade (<45%);
+- <img src="gifs/baixa.gif" width="400" height="300" /> 
+- 
 - Frizz provocado pela alta umidade (>60%);
 - Sem frizz (entre 45% e 60%);
 
@@ -14,4 +16,4 @@ A aplicação possui **três layouts** para cada uma das situações:
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" height="40" />
           
           
-Imagem utilizada: https://feirashop.com.br/beleza/frizz-em-dias-umido/
+[Imagem principal utilizada no design]([https://pages.github.com/](https://feirashop.com.br/beleza/frizz-em-dias-umido/)).
