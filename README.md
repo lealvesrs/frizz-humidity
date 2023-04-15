@@ -1,6 +1,6 @@
 # Vai ter frizz?
 
-### [Deploy](https://lealvesrs.github.io/frizz-humidity/)
+### Confira a aplicação: [Deploy](https://lealvesrs.github.io/frizz-humidity/)
 
 
 A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar. No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa.
