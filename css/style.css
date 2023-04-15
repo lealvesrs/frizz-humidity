@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    background-color: #e0ba92;
 }
 
 #errorMsg {
@@ -29,28 +30,28 @@ body {
     box-shadow: 0px 0px 14px 0px rgba(124, 107, 88, 0.31);
 }
 
-.div-loader {
-    display: flex;
-    justify-content: center;
-    padding: 10%;
+
+#footer i {
+    cursor: pointer;
+}
+
+#porcent p {
+    margin: 0;
+}
+
+#search i {
+    position: absolute;
 }
 
 
 
+
+
+/* baixa umidade */
 .dry-body {
     background-color: #a58e74;
 }
 
-.wet-body {
-    background-color: #686564;
-}
-
-.normal-body {
-    background-color: #d1c3e0;
-}
-
-
-/* baixa umidade */
 .dry-card {
     background-image: url('../img/frizz-1.jpg');
     background-repeat: no-repeat;
@@ -95,7 +96,13 @@ body {
 
 
 
+
+
 /*  normal */
+.normal-body {
+    background-color: #d1c3e0;
+}
+
 .normal-card {
     background-image: url('../img/semfrizz.jpeg');
     background-repeat: no-repeat;
@@ -152,14 +159,18 @@ body {
 
 
 
+
 /* alta umidade */
+.wet-body {
+    background-color: #686564;
+}
+
 
 .wet-card {
     background-image: url('../img/frizz-wet.jpeg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
 
 .input-search-wet:focus {
     border: 1px solid #66799b;
@@ -205,6 +216,14 @@ body {
 }
 
 
+/* loader */
+.div-loader {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+
 .loader {
     width: 48px;
     height: 48px;
@@ -243,11 +262,6 @@ body {
 
 
 @media screen and (max-width: 564px) {
-
-    body {
-        background-color: #e0ba92;
-        
-    }
 
     #card {
         opacity: 0.9;
@@ -317,13 +331,6 @@ body {
     }
 
 
-
-
-    #search i {
-        position: absolute;
-    
-    }
-
     #icon-search {
         padding: 15px;
         font-size: 12px;
@@ -343,11 +350,6 @@ body {
         height: 20vh;
 
     }
-
-    #porcent p {
-        margin: 0;
-    }
-
 
     #humidity {
         margin: 0;
@@ -407,10 +409,6 @@ body {
         justify-content: flex-start;
         color: #999999;
         text-shadow: 2px 2px rgba(145, 130, 130, 0.295);
-    }
-
-    #footer i {
-        cursor: pointer;
     }
 
     #info {
@@ -503,11 +501,7 @@ body {
 }
 
 @media screen and (min-width: 565px) {
-    body {
-        background-color: #e0ba92;
-        
-    }
-
+ 
     #card {
         opacity: 0.9;
         width: 400px;
@@ -568,10 +562,6 @@ body {
     }
 
 
-    #search i {
-        position: absolute;
-    }
-
     #icon-search {
         padding: 15px;
         font-size: 15px;
@@ -590,10 +580,6 @@ body {
         font-family: 'Montserrat', sans-serif;
         height: 20vh;
 
-    }
-
-    #porcent p {
-        margin: 0;
     }
 
 
@@ -652,9 +638,6 @@ body {
         text-shadow: 2px 2px rgba(145, 130, 130, 0.295);
     }
 
-    #footer i {
-        cursor: pointer;
-    }
 
     #info {
         margin: 5%;
