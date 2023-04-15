@@ -14,11 +14,11 @@ A aplicação possui **três layouts** para cada uma das situações:
 <img src="gifs/normal.gif" width="400" height="300" /> 
 
 
-Além de contar com um layout para lidar com as localidades inexistentes na base.
+- Além de contar com um layout para lidar com as localidades inexistentes na base.
 <img src="gifs/error.gif" width="400" height="300" /> 
 
 ### Ferramentas e Tecnologias utilizadas
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" height="40" /> <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" width="100" height="80" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" />  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" width="40" height="40" /> <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" width="40" height="40" />
  
           
-[Imagem principal utilizada no design]([https://pages.github.com/](https://feirashop.com.br/beleza/frizz-em-dias-umido/)).
+[Imagem](https://feirashop.com.br/beleza/frizz-em-dias-umido/) principal utilizada no design
