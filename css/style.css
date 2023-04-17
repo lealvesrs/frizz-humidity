@@ -259,7 +259,37 @@ body {
     }
 }
 
+#icon-search {
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
 
+
+input::placeholder {
+    font-size: 15px;
+    color: #6b5c4c;
+}
+
+#section {
+    width: 50%;
+    height: 100%;
+}
+
+
+#blocks {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#results-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
 
 @media screen and (max-width: 564px) {
 
@@ -331,18 +361,6 @@ body {
     }
 
 
-    #icon-search {
-        padding: 15px;
-        font-size: 12px;
-        cursor: pointer;
-    }
-
-
-    input::placeholder {
-        font-size: 15px;
-        color: #6b5c4c;
-    }
-
     #porcent {
         text-align: center;
         font-size: 3vh;
@@ -380,12 +398,6 @@ body {
 
     }
 
-    #results-weather {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-    }
 
     .more {
         width: 50%;
@@ -395,10 +407,7 @@ body {
         color: #6b5c4c;
     }
 
-    #section {
-        width: 50%;
-        height: 100%;
-    }
+  
 
     #footer {
         padding-left: 5%;
@@ -434,14 +443,6 @@ body {
         font-weight: bolder;
     }
 
-
-
-    #blocks {
-        align-items: center;
-        display: flex;
-        width: 100%;
-        height: 50%;
-    }
 
 
     #weather {
@@ -499,6 +500,7 @@ body {
     }
 
 }
+
 
 @media screen and (min-width: 565px) {
  
@@ -562,17 +564,7 @@ body {
     }
 
 
-    #icon-search {
-        padding: 15px;
-        font-size: 15px;
-        cursor: pointer;
-    }
-
-
-    input::placeholder {
-        font-size: 15px;
-        color: #6b5c4c;
-    }
+ 
 
     #porcent {
         text-align: center;
@@ -599,19 +591,16 @@ body {
     }
 
 
-    #results-weather {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-    }
-
     #city {
         text-transform: uppercase;
         color: #6b5c4c;
         font-size: 15px;
         padding-right: 5%;
         width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column;
     }
 
     .more {
@@ -622,10 +611,6 @@ body {
         color: #6b5c4c;
     }
 
-    #section {
-        width: 50%;
-        height: 100%;
-    }
 
     #footer {
         padding-left: 5%;
@@ -665,13 +650,6 @@ body {
         font-weight: bolder;
     }
 
-
-    #blocks {
-        align-items: center;
-        display: flex;
-        width: 100%;
-        height: 50%;
-    }
 
 
     #weather {
