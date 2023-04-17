@@ -44,6 +44,38 @@ body {
 }
 
 
+#icon-search {
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+input::placeholder {
+    font-size: 15px;
+    color: #6b5c4c;
+}
+
+#section {
+    width: 50%;
+    height: 100%;
+}
+
+
+#blocks {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+#results-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
 
 
 
@@ -259,37 +291,6 @@ body {
     }
 }
 
-#icon-search {
-    padding: 15px;
-    font-size: 12px;
-    cursor: pointer;
-}
-
-
-input::placeholder {
-    font-size: 15px;
-    color: #6b5c4c;
-}
-
-#section {
-    width: 50%;
-    height: 100%;
-}
-
-
-#blocks {
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 50%;
-}
-
-#results-weather {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-}
 
 @media screen and (max-width: 564px) {
 
@@ -324,7 +325,6 @@ input::placeholder {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-
         transition: .6s ease-out;
     }
 
@@ -398,7 +398,6 @@ input::placeholder {
 
     }
 
-
     .more {
         width: 50%;
         padding-left: 5%;
@@ -406,8 +405,6 @@ input::placeholder {
         text-align: left;
         color: #6b5c4c;
     }
-
-  
 
     #footer {
         padding-left: 5%;
@@ -477,13 +474,11 @@ input::placeholder {
         border-radius: 100% 57% 7% 76% / 100% 10% 5% 57%;
     }
 
-
     #words {
         font-size: 70px;
         font-family: 'Caveat', cursive;
         text-align: center;
     }
-
 
 
     .normal-simbol img {
@@ -515,7 +510,6 @@ input::placeholder {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
-
         height: 70px;
         transition: .6s ease-out;
     }
@@ -531,7 +525,6 @@ input::placeholder {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
-
         transition: .6s ease-out;
     }
 
@@ -563,8 +556,6 @@ input::placeholder {
         text-transform: uppercase;
     }
 
-
- 
 
     #porcent {
         text-align: center;
@@ -649,7 +640,6 @@ input::placeholder {
         font-size: 13px;
         font-weight: bolder;
     }
-
 
 
     #weather {
