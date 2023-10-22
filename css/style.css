@@ -39,6 +39,12 @@ body {
     margin: 0;
 }
 
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #search i {
     position: absolute;
 }
