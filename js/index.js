@@ -1,8 +1,6 @@
 
 $(document).ready(function () {
 
-    let apiKey = '12d006d950c398772ce30392456a62ad';
-
     function getCity() {
         var cidade = $('#input-search').val();
         getWeatherData(cidade)
@@ -11,10 +9,10 @@ $(document).ready(function () {
 
     const getWeatherData = async (cidade) => {
         $('.div-loader').removeClass("none");
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric`
+        let url = `https://api-hairhumidity.onrender.com/getCity/${cidade}`
         const res = await fetch(url)
         const data = await res.json();
-        if (data.cod == '404') errorData()
+        if (data.status == '404') errorData()
         else showWeatherData(data)
 
         $('.div-loader').addClass("none");
