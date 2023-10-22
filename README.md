@@ -5,7 +5,7 @@
 
 A falta de controle dos fios é uma situação vivenciada por todas as pessoas que têm o cabelo um pouquinho mais comprido, uma vez que ele é promovido pela baixa e alta umidade o ar. No entanto, o que para alguns é apenas uma condição capilar comum, para outros, é um motivo de incomodo e insegurança, principalmente frente a eventos importantes ou compromissos que requerem uma apresentação mais rigorosa.
 
-Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida a partir da API gratuita da [Open Weather](https://openweathermap.org/) e, assim, sabermos se _há ou não um indicativo para o frizz_.
+Dessa forma, conseguimos com essa aplicação visualizar a umidade relativa do ar da localidade inserida a partir da API gratuita da [Open Weather](https://openweathermap.org/) e, assim, sabermos se _há ou não um indicativo para o frizz_. Para trabalhar com as requisições foi construída uma api com Node.JS, Express e Axios, hospedada gratuitamente no [Render](https://render.com/)
 
 A aplicação possui **três layouts** para cada uma das situações:
 - Frizz provocado pela baixa umidade (<45%);
