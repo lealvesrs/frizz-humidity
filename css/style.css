@@ -45,15 +45,13 @@ body {
     justify-content: space-between;
 }
 
-#search i {
-    position: absolute;
-}
 
 
 #icon-search {
     padding: 15px;
     font-size: 12px;
     cursor: pointer;
+    position: absolute;
 }
 
 
@@ -84,7 +82,6 @@ input::placeholder {
 
 
 
-
 /* baixa umidade */
 .dry-body {
     background-color: #a58e74;
@@ -92,8 +89,6 @@ input::placeholder {
 
 .dry-card {
     background-image: url('../img/frizz-1.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 .input-search-dry {
@@ -102,34 +97,13 @@ input::placeholder {
     color: #6b5c4c;
 }
 
-.icon-dry {
-    color: #6b5c4c;
-}
 
-.porcent-dry {
+.color-dry {
     color: #ffefcd;
-}
-
-.humidity-dry {
-    color: #ffefcd;
-}
-
-.dry-info {
-    background-color: #ddc7af;
-}
-
-.dry-weather span {
-    color: #424530;
 }
 
 .dry-simbol {
     background-color: #d39b60;
-}
-
-
-
-.dry-words {
-    color: #eef1d7;
 }
 
 
@@ -143,8 +117,6 @@ input::placeholder {
 
 .normal-card {
     background-image: url('../img/semfrizz.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
 
 .input-search-normal:focus {
@@ -160,11 +132,7 @@ input::placeholder {
     color: #dcf0e8;
 }
 
-.porcent-normal {
-    color: #eeebff;
-}
-
-.humidity-normal {
+.color-normal {
     color: #eeebff;
 }
 
@@ -190,7 +158,7 @@ input::placeholder {
 }
 
 .normal-results {
-    background-color: #f5f4ac !important;
+    background-color: #fdf6ba;
 
 }
 
@@ -205,9 +173,7 @@ input::placeholder {
 
 
 .wet-card {
-    background-image: url('../img/frizz-wet.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url('../img/frizz-wet.jpeg');   
 }
 
 .input-search-wet:focus {
@@ -224,68 +190,26 @@ input::placeholder {
     color: #606865;
 }
 
-.wet-info {
-    background-color: #97d6ac;
-}
 
-.porcent-wet {
-    color: #eaf8f8;
-}
-
-.humidity-wet {
-    color: #eaf8f8;
-}
-
-.wet-weather span {
-    color: #29575f;
-}
-
-.wet-words {
-    color: #eaf8f8;
-}
-
-.wet-words span {
-    color: #295856;
-}
-
-
-.wet-simbol {
+.wet-simbol{
     background-color: #29575f;
 }
 
 
-/* loader */
-.div-loader {
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-}
-
 
 .loader {
-    width: 48px;
-    height: 48px;
-    border: 3px solid #FFF;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #42392f;
+    border-bottom-color: transparent;
     border-radius: 50%;
     display: inline-block;
-    position: relative;
     box-sizing: border-box;
-    animation: rotation 8s linear infinite;
+    animation: rotation 1s linear infinite;
+    position: absolute;
+    margin: 12px;
 }
 
-.loader::after {
-    content: '';
-    box-sizing: border-box;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    border: 3px solid;
-    border-color: #d6d1cf transparent;
-}
 
 @keyframes rotation {
     0% {
@@ -297,6 +221,10 @@ input::placeholder {
     }
 }
 
+
+#errorMsg i {
+    font-size: 30px;
+}
 
 @media screen and (max-width: 564px) {
 
@@ -311,14 +239,12 @@ input::placeholder {
         justify-content: center;
         flex-flow: row wrap;
         background-color: #f1af63;
-
         height: 70px;
         transition: .6s ease-out;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 
-    #errorMsg i {
-        font-size: 30px;
-    }
 
     #errorMsg {
         font-size: 14px;
@@ -350,9 +276,6 @@ input::placeholder {
         display: none;
     }
 
-    #search {
-        margin: 12px;
-    }
 
 
     #input-search {
@@ -400,7 +323,6 @@ input::placeholder {
         height: 450px;
         width: 320px;
         border-radius: 10px;
-        background-color: #eef1d7;
 
     }
 
@@ -518,11 +440,10 @@ input::placeholder {
         background-color: #f1af63;
         height: 70px;
         transition: .6s ease-out;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 
-    #errorMsg i {
-        font-size: 30px;
-    }
 
     .content {
         height: 70%;
@@ -547,9 +468,7 @@ input::placeholder {
     }
 
 
-    #search {
-        margin: 13px;
-    }
+
 
     #input-search {
         width: 350px;
@@ -583,7 +502,6 @@ input::placeholder {
         height:450px;
         width: 100%;
         border-radius: 10px;
-        background-color: #eceee1;
 
     }
 
